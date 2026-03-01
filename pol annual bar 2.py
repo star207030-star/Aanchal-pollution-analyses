@@ -23,4 +23,5 @@ plt.ylabel("PM2.5 (µg/m3)")
 plt.title("PM2.5 Annual Average (2020-2024)")
 plt.legend()
 
+
 plt.show()
