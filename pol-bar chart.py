@@ -12,4 +12,5 @@ plt.ylabel("PM2.5 (µg/m3)")
 plt.title("2024 Global PM2.5 Levels")
 plt.xticks(rotation=45)
 
+
 plt.show()
