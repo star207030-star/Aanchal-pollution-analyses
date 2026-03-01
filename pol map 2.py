@@ -18,4 +18,5 @@ fig = px.choropleth(df,
                     color="Value",
                     title="World Map Highlighted Countries")
 
+
 fig.show()
