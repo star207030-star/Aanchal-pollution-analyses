@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pollution AQI Predictor</title>
+</head>
+
+<body>
+
+<h2>Air Pollution AQI Prediction System</h2>
+
+<form method="POST">
+Enter AQI values separated by comma:<br><br>
+<input type="text" name="aqi" placeholder="120,130,140,150">
+
+<br><br>
+
+<input type="submit" value="Predict AQI">
+</form>
+
+{% if prediction %}
+<h3>Predicted AQI for Next Day: {{ prediction }}</h3>
+{% endif %}
+
+</body>
+</html>
